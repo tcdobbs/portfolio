@@ -1,10 +1,18 @@
-{% block content %} 
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foundation 5</title>
+  		<link href="/assets/css/foundation.min.css" rel="stylesheet" type="text/css" media="all"/>
+  		<script src="/bower_components/foundation/js/vendor/modernizr.js"></script>
+	</head>
+	<body>
+		 
 	<div class="row">
       <div class="large-12 columns">
         <h1>CHRIS DOBBS</h1>
         <h2>FRONT END DESIGNER AND DEVELOPER</h2>
-        <h3>test</h3>
-        <h6>test</h6>
       </div>
     </div>
     <div class="row">
@@ -148,4 +156,12 @@
         </div>
       </div>
     </div>
-{% endblock %}
+
+  		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/assets/js/foundation.min.js"></script>
+<script>
+$(document).foundation();
+</script>
+
+	</body>
+</html>
